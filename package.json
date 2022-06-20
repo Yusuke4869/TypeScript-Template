@@ -3,5 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
-  "author": "Yusuke4869"
+  "author": "Yusuke4869",
+  "scripts": {
+    "format": "prettier --write src/**/*.ts",
+    "check": "prettier --check src/**/*.ts"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
 }
