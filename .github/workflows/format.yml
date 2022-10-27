@@ -1,9 +1,9 @@
-name: Build
+name: Format
 on: [push, pull_request]
 
 jobs:
-  build:
-    name: Build
+  format:
+    name: Format
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -17,5 +17,5 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build
-        run: yarn run build
+      - name: Format
+        run: yarn run format:check
