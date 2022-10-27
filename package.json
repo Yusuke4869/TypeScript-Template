@@ -20,6 +20,10 @@
       "yarn format"
     ]
   },
+  "engines": {
+    "node": "18.12.0",
+    "npm": "Please use yarn instead"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^18.0.0",
