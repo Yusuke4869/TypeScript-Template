@@ -1,5 +1,5 @@
-# Template of TypeScript Project  
+# Template of TypeScript Project
 
-## License  
+## License
 
-MIT  
+MIT
