@@ -22,7 +22,7 @@
   },
   "packageManager": "yarn@4.4.0",
   "volta": {
-    "node": "20.16.0"
+    "node": "20.17.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
