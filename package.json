@@ -8,16 +8,14 @@
     "dev": "ts-node-dev src/main.ts",
     "build": "tsc",
     "start": "node dist/main.js",
-    "lint": "eslint --ignore-path .gitignore src/**/*.ts",
-    "lint:fix": "eslint --ignore-path .gitignore src/**/*.ts --fix",
+    "lint": "eslint --fix src/**/*.ts && prettier --write .",
     "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "prepare": "husky install"
+    "check": "eslint src/**/*.ts && prettier --check .",
+    "prepare": "husky"
   },
   "lint-staged": {
     "src/**/*.ts": [
-      "yarn lint:fix",
-      "yarn format"
+      "pnpm check"
     ]
   },
   "packageManager": "pnpm@9.8.0+sha512.8e4c3550fb500e808dbc30bb0ce4dd1eb614e30b1c55245f211591ec2cdf9c611cabd34e1364b42f564bd54b3945ed0f49d61d1bbf2ec9bd74b866fcdc723276",
