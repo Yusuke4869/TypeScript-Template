@@ -1,4 +1,4 @@
-# Template of TypeScript Project
+# Template of TypeScript
 
 ## License
 
