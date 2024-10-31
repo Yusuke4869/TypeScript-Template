@@ -22,7 +22,7 @@ importers:
         version: 8.42.3
       '@types/node':
         specifier: ^20.0.0
-        version: 20.17.3
+        version: 20.17.4
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.0.0
         version: 8.12.2(@typescript-eslint/parser@8.12.2(eslint@9.13.0)(typescript@5.6.3))(eslint@9.13.0)(typescript@5.6.3)
@@ -55,10 +55,10 @@ importers:
         version: 3.3.3
       ts-node:
         specifier: ^10.8.1
-        version: 10.9.2(@types/node@20.17.3)(typescript@5.6.3)
+        version: 10.9.2(@types/node@20.17.4)(typescript@5.6.3)
       ts-node-dev:
         specifier: ^2.0.0
-        version: 2.0.0(@types/node@20.17.3)(typescript@5.6.3)
+        version: 2.0.0(@types/node@20.17.4)(typescript@5.6.3)
       typescript:
         specifier: ^5.0.0
         version: 5.6.3
@@ -200,8 +200,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@20.17.3':
-    resolution: {integrity: sha512-tSQrmKKatLDGnG92h40GD7FzUt0MjahaHwOME4VAFeeA/Xopayq5qLyQRy7Jg/pjgKIFBXuKcGhJo+UdYG55jQ==}
+  '@types/node@20.17.4':
+    resolution: {integrity: sha512-Fi1Bj8qTJr4f1FDdHFR7oMlOawEYSzkHNdBJK+aRjcDDNHwEV3jPPjuZP2Lh2QNgXeqzM8Y+U6b6urKAog2rZw==}
 
   '@types/strip-bom@3.0.0':
     resolution: {integrity: sha512-xevGOReSYGM7g/kUBZzPqCrR/KYAo+F0yiPc85WFTJa0MSLtyFTVTU6cJu/aV4mid7IffDIWqo69THF2o4JiEQ==}
@@ -1497,7 +1497,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@20.17.3':
+  '@types/node@20.17.4':
     dependencies:
       undici-types: 6.19.8
 
@@ -2655,7 +2655,7 @@ snapshots:
     dependencies:
       typescript: 5.6.3
 
-  ts-node-dev@2.0.0(@types/node@20.17.3)(typescript@5.6.3):
+  ts-node-dev@2.0.0(@types/node@20.17.4)(typescript@5.6.3):
     dependencies:
       chokidar: 3.6.0
       dynamic-dedupe: 0.3.0
@@ -2665,7 +2665,7 @@ snapshots:
       rimraf: 2.7.1
       source-map-support: 0.5.21
       tree-kill: 1.2.2
-      ts-node: 10.9.2(@types/node@20.17.3)(typescript@5.6.3)
+      ts-node: 10.9.2(@types/node@20.17.4)(typescript@5.6.3)
       tsconfig: 7.0.0
       typescript: 5.6.3
     transitivePeerDependencies:
@@ -2673,14 +2673,14 @@ snapshots:
       - '@swc/wasm'
       - '@types/node'
 
-  ts-node@10.9.2(@types/node@20.17.3)(typescript@5.6.3):
+  ts-node@10.9.2(@types/node@20.17.4)(typescript@5.6.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.17.3
+      '@types/node': 20.17.4
       acorn: 8.12.1
       acorn-walk: 8.3.3
       arg: 4.1.3
