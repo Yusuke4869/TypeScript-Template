@@ -18,11 +18,11 @@ importers:
         specifier: ^6.11.3
         version: 6.11.3
       '@types/eslint__js':
-        specifier: ^8.42.3
-        version: 8.42.3
+        specifier: ^9.0.0
+        version: 9.14.0
       '@types/node':
-        specifier: ^20.0.0
-        version: 20.17.16
+        specifier: ^22.0.0
+        version: 22.13.4
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.0.0
         version: 8.22.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0)(typescript@5.7.3)
@@ -55,10 +55,10 @@ importers:
         version: 3.4.2
       ts-node:
         specifier: ^10.8.1
-        version: 10.9.2(@types/node@20.17.16)(typescript@5.7.3)
+        version: 10.9.2(@types/node@22.13.4)(typescript@5.7.3)
       ts-node-dev:
         specifier: ^2.0.0
-        version: 2.0.0(@types/node@20.17.16)(typescript@5.7.3)
+        version: 2.0.0(@types/node@22.13.4)(typescript@5.7.3)
       typescript:
         specifier: ^5.0.0
         version: 5.7.3
@@ -179,11 +179,9 @@ packages:
   '@types/eslint-config-prettier@6.11.3':
     resolution: {integrity: sha512-3wXCiM8croUnhg9LdtZUJQwNcQYGWxxdOWDjPe1ykCqJFPVpzAKfs/2dgSoCtAvdPeaponcWPI7mPcGGp9dkKQ==}
 
-  '@types/eslint@9.6.0':
-    resolution: {integrity: sha512-gi6WQJ7cHRgZxtkQEoyHMppPjq9Kxo5Tjn2prSKDSmZrCz8TZ3jSRCeTJm+WoM+oB0WG37bRqLzaaU3q7JypGg==}
-
-  '@types/eslint__js@8.42.3':
-    resolution: {integrity: sha512-alfG737uhmPdnvkrLdZLcEKJ/B8s9Y4hrZ+YAdzUeoArBlSUERA2E87ROfOaS4jd/C45fzOoZzidLc1IPwLqOw==}
+  '@types/eslint__js@9.14.0':
+    resolution: {integrity: sha512-s0jepCjOJWB/GKcuba4jISaVpBudw3ClXJ3fUK4tugChUMQsp6kSwuA8Dcx6wFd/JsJqcY8n4rEpa5RTHs5ypA==}
+    deprecated: This is a stub types definition. @eslint/js provides its own type definitions, so you do not need this installed.
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
@@ -194,8 +192,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@20.17.16':
-    resolution: {integrity: sha512-vOTpLduLkZXePLxHiHsBLp98mHGnl8RptV4YAO3HfKO5UHjDvySGbxKtpYfy8Sx5+WKcgc45qNreJJRVM3L6mw==}
+  '@types/node@22.13.4':
+    resolution: {integrity: sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==}
 
   '@types/strip-bom@3.0.0':
     resolution: {integrity: sha512-xevGOReSYGM7g/kUBZzPqCrR/KYAo+F0yiPc85WFTJa0MSLtyFTVTU6cJu/aV4mid7IffDIWqo69THF2o4JiEQ==}
@@ -1293,8 +1291,8 @@ packages:
   unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
 
-  undici-types@6.19.8:
-    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
+  undici-types@6.20.0:
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
@@ -1442,14 +1440,9 @@ snapshots:
 
   '@types/eslint-config-prettier@6.11.3': {}
 
-  '@types/eslint@9.6.0':
+  '@types/eslint__js@9.14.0':
     dependencies:
-      '@types/estree': 1.0.6
-      '@types/json-schema': 7.0.15
-
-  '@types/eslint__js@8.42.3':
-    dependencies:
-      '@types/eslint': 9.6.0
+      '@eslint/js': 9.19.0
 
   '@types/estree@1.0.6': {}
 
@@ -1457,9 +1450,9 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@20.17.16':
+  '@types/node@22.13.4':
     dependencies:
-      undici-types: 6.19.8
+      undici-types: 6.20.0
 
   '@types/strip-bom@3.0.0': {}
 
@@ -2603,7 +2596,7 @@ snapshots:
     dependencies:
       typescript: 5.7.3
 
-  ts-node-dev@2.0.0(@types/node@20.17.16)(typescript@5.7.3):
+  ts-node-dev@2.0.0(@types/node@22.13.4)(typescript@5.7.3):
     dependencies:
       chokidar: 3.6.0
       dynamic-dedupe: 0.3.0
@@ -2613,7 +2606,7 @@ snapshots:
       rimraf: 2.7.1
       source-map-support: 0.5.21
       tree-kill: 1.2.2
-      ts-node: 10.9.2(@types/node@20.17.16)(typescript@5.7.3)
+      ts-node: 10.9.2(@types/node@22.13.4)(typescript@5.7.3)
       tsconfig: 7.0.0
       typescript: 5.7.3
     transitivePeerDependencies:
@@ -2621,14 +2614,14 @@ snapshots:
       - '@swc/wasm'
       - '@types/node'
 
-  ts-node@10.9.2(@types/node@20.17.16)(typescript@5.7.3):
+  ts-node@10.9.2(@types/node@22.13.4)(typescript@5.7.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.17.16
+      '@types/node': 22.13.4
       acorn: 8.12.1
       acorn-walk: 8.3.3
       arg: 4.1.3
@@ -2708,7 +2701,7 @@ snapshots:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
 
-  undici-types@6.19.8: {}
+  undici-types@6.20.0: {}
 
   uri-js@4.4.1:
     dependencies:
