@@ -6,6 +6,3 @@ dist/
 
 # env
 .env
-
-# git hook
-.husky/prepare-commit-msg
