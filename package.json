@@ -8,9 +8,10 @@
     "dev": "ts-node-dev src/main.ts",
     "build": "tsc",
     "start": "node dist/main.js",
-    "lint": "eslint --fix src/**/*.ts && prettier --write .",
-    "format": "prettier --write .",
-    "check": "eslint src/**/*.ts && prettier --check .",
+    "lint": "tsc --noEmit && eslint --fix && prettier --write .",
+    "lint:check": "tsc --noEmit && eslint",
+    "fmt": "prettier --write .",
+    "fmt:check": "prettier --check .",
     "prepare": "husky"
   },
   "lint-staged": {
