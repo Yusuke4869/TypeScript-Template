@@ -1,9 +1,5 @@
 {
   "name": "typescript-template",
-  "version": "0.1.0",
-  "private": true,
-  "license": "MIT",
-  "author": "Yusuke4869",
   "scripts": {
     "dev": "tsx watch src/main.ts",
     "build": "tsc",
